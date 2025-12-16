@@ -1,6 +1,7 @@
 body {
     background-image: url('manOnCliff.webp');
     background-size: cover;
+    width: 100vw;
 
 }
 
