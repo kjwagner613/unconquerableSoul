@@ -1,4 +1,10 @@
-body {}
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f4f1de;
+}
 
 .page-container {
     display: flex;
@@ -12,6 +18,9 @@ body {}
     height: 100%;
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 50%;
+    /* transform: translateY(-50%); */
+    padding: 2vh 0;
     /* Optional: adds a semi-transparent overlay for better text visibility */
 }
 
