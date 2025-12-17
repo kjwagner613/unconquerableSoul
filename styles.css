@@ -1,10 +1,18 @@
-body {
+body {}
+
+.page-container {
+    display: flex;
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center; */
     background-image: url('manOnCliff.webp');
     background-size: cover;
-    height: 90%;
+    background-position: left;
     background-repeat: no-repeat;
-    
-
+    height: 140vh;
+    width: 80vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Optional: adds a semi-transparent overlay for better text visibility */
 }
 
 .playfair-display-sc-regular {
@@ -65,7 +73,7 @@ h2 {
     font-style: normal;
     justify-self: center;
     /* transform: translateX(-33.333%); */
-    color: silver;
+    color: #000204;
 }
 
 
@@ -74,23 +82,19 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 95%;
+    height: 100%;
     width: 60%;
     margin-left: .2vw;
     background: rgba(237, 220, 178, 0.7);
-   -webkit-mask-image: linear-gradient(
-        to right,
-        transparent 0%,
-        black 15%,
-        black 85%,
-        transparent 100%
-    );
-    mask-image: linear-gradient(
-        to right,
-        transparent 0%,
-        black 15%,
-        black 85%,
-        transparent 100%
-    );
+    -webkit-mask-image: linear-gradient(to right,
+            transparent 0%,
+            black 15%,
+            black 85%,
+            transparent 100%);
+    mask-image: linear-gradient(to right,
+            transparent 0%,
+            black 15%,
+            black 85%,
+            transparent 100%);
 
 }
